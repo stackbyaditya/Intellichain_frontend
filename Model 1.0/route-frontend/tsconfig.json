@@ -23,10 +23,8 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
+    "baseUrl": "./src",
+    "paths": { "@/": ["*"] },
     "esModuleInterop": true // Crucial for default imports
   },
   "include": ["src"]

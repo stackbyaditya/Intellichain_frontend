@@ -1,20 +1,63 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import ChartWrapper from '@/components/ui/ChartWrapper';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 interface BarChartProps {
-  data: any; // Chart.js data object
-  options?: any; // Chart.js options object
-  title?: string;
+  title: string;
+  data: any; // Replace with more specific type if needed
+  options?: any; // Replace with more specific type if needed
   loading?: boolean;
-  error?: string;
+  error?: string | null;
 }
 
-const BarChart: React.FC<BarChartProps> = ({ data, options, title, loading, error }) => {
+const BarChart: React.FC<BarChartProps> = ({ title, data, options, loading, error }) => {
+  if (loading) {
+    return <div className="text-center py-4">Loading chart data...</div>;
+  }
+
+  if (error) {
+    return <div className="text-center py-4 text-red-500">Error loading chart: {error}</div>;
+  }
+
+  if (!data || !data.datasets || data.datasets.length === 0) {
+    return <div className="text-center py-4 text-gray-500">No data available for {title}.</div>;
+  }
+
+  const defaultOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'top' as const,
+      },
+      title: {
+        display: true,
+        text: title,
+      },
+    },
+  };
+
   return (
-    <ChartWrapper title={title} loading={loading} error={error}>
-      <Bar data={data} options={options} />
-    </ChartWrapper>
+    <div style={{ height: '300px' }}> {/* Fixed height for responsiveness */}
+      <Bar data={data} options={{ ...defaultOptions, ...options }} />
+    </div>
   );
 };
 

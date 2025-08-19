@@ -25,7 +25,9 @@ console.log("APP-MOUNT-START");
       <BrowserRouter>
         <AuthProvider>
           <AlertProvider>
-            <App />
+            <SettingsProvider>
+              <App />
+            </SettingsProvider>
           </AlertProvider>
         </AuthProvider>
       </BrowserRouter>
