@@ -1,0 +1,1 @@
+components/ui is for shared primitives and consistent import paths used by shadcn conventions.
