@@ -1,0 +1,6 @@
+route-frontend/src/main.tsx(4,1): error TS6133: 'App' is declared but its value is never read.
+route-frontend/src/mocks/browser.ts(4,9): error TS2339: Property 'setupWorker' does not exist on type 'typeof import("C:/Users/Aditya Kumar/Desktop/Model 1.0/Model 1.0/route-frontend/node_modules/msw/lib/core/index")'.
+route-frontend/src/mocks/handlers.ts(5,83): error TS6133: 'request' is declared but its value is never read.
+route-frontend/src/mocks/handlers.ts(24,13): error TS2339: Property 'points' does not exist on type 'DefaultBodyType'.
+route-frontend/src/mocks/handlers.ts(56,13): error TS2339: Property 'lat' does not exist on type 'DefaultBodyType'.
+route-frontend/src/mocks/handlers.ts(56,18): error TS2339: Property 'lon' does not exist on type 'DefaultBodyType'.
