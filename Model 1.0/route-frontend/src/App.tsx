@@ -1,7 +1,7 @@
 import React, { Suspense, lazy, useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import HeroSectionDemo from '@/pages/HeroSectionDemo';
-import AlertDisplay from '@/components/ui/AlertDisplay';
+import AlertDisplay from '@/components/AlertDisplay';
 import { Header, Footer } from '@/components/ui';
 import { useAuth } from '@/context/AuthContext';
 import './index.css';

@@ -1,45 +1,24 @@
 import { fetchWithTimeout } from '@/lib/http';
 
 const MAPMYINDIA_API_KEY = import.meta.env.VITE_MAPMYINDIA_API_KEY;
-const MAPMYINDIA_BASE_URL = 'https://apis.mapmyindia.com';
+const MAPMYINDIA_BASE_URL = 'https://apis.mapmyindia.com/advancedmaps/v1';
 
-interface MapMyIndiaGeocodeResponse {
-  results: Array<{
-    lat: string;
-    lng: string;
-    formattedAddress: string;
-  }>;
-}
-
-export async function geocodeAddress(query: string, abortSignal?: AbortSignal): Promise<MapMyIndiaGeocodeResponse> {
+export async function getETA(startCoords: [number, number], endCoords: [number, number], abortSignal?: AbortSignal) {
   if (!MAPMYINDIA_API_KEY) {
     throw new Error('MapMyIndia API key is not configured.');
   }
-  const url = `${MAPMYINDIA_BASE_URL}/advancedmaps/v1/${MAPMYINDIA_API_KEY}/geocode?query=${encodeURIComponent(query)}`;
-  const response = await fetchWithTimeout(url, { signal: abortSignal });
-  if (!response.ok) {
-    throw new Error(`MapMyIndia Geocoding API error: ${response.statusText}`);
-  }
-  const data = await response.json();
-  return data as MapMyIndiaGeocodeResponse;
-}
 
-interface MapMyIndiaETAResponse {
-  routes: Array<{
-    distance: number;
-    duration: number;
-  }>;
-}
+  const url = `${MAPMYINDIA_BASE_URL}/${MAPMYINDIA_API_KEY}/route_adv/driving/${startCoords[0]},${startCoords[1]};${endCoords[0]},${endCoords[1]}?steps=false&alternatives=false`;
 
-export async function getETA(start: [number, number], end: [number, number], abortSignal?: AbortSignal): Promise<MapMyIndiaETAResponse> {
-  if (!MAPMYINDIA_API_KEY) {
-    throw new Error('MapMyIndia API key is not configured.');
+  try {
+    const response = await fetchWithTimeout(url, { signal: abortSignal });
+    if (!response.ok) {
+      throw new Error(`MapMyIndia API error: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching MapMyIndia ETA:', error);
+    throw error;
   }
-  const url = `${MAPMYINDIA_BASE_URL}/advancedmaps/v1/${MAPMYINDIA_API_KEY}/route?start=${start[1]},${start[0]}&end=${end[1]},${end[0]}`;
-  const response = await fetchWithTimeout(url, { signal: abortSignal });
-  if (!response.ok) {
-    throw new Error(`MapMyIndia Route API error: ${response.statusText}`);
-  }
-  const data = await response.json();
-  return data as MapMyIndiaETAResponse;
 }

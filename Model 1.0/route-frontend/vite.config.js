@@ -7,11 +7,11 @@ export default defineConfig({
     plugins: [react()],
     resolve: {
         alias: {
-            '@/': path.resolve(__dirname, 'src') + '/',
+            '@': path.resolve(__dirname, './src'),
         }
     },
     optimizeDeps: {
-        include: ['msw', 'react-map-gl/maplibre', 'mapbox-gl'],
+        include: ['react-map-gl/maplibre', 'mapbox-gl', 'react-chartjs-2', 'chart.js'],
     },
     build: {
         commonjsOptions: {
