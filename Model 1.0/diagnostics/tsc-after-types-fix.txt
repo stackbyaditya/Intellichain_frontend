@@ -1,0 +1,11 @@
+route-frontend/src/components/ui/AlertDisplay.tsx(5,15): error TS6133: 't' is declared but its value is never read.
+route-frontend/src/components/ui/AuthGuard.tsx(11,11): error TS2339: Property 'isAuthenticated' does not exist on type 'Ctx'.
+route-frontend/src/components/ui/RoleSwitcher.tsx(2,24): error TS2305: Module '"@/context"' has no exported member 'UserRole'.
+route-frontend/src/context/AlertContext.tsx(1,47): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+route-frontend/src/context/AuthContext.tsx(1,47): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+route-frontend/src/mocks/handlers.ts(14,83): error TS6133: 'request' is declared but its value is never read.
+route-frontend/src/pages/admin/index.tsx(8,11): error TS2339: Property 'addAlert' does not exist on type 'Ctx'.
+route-frontend/src/pages/customer/index.tsx(8,11): error TS2339: Property 'addAlert' does not exist on type 'Ctx'.
+route-frontend/src/pages/driver/index.tsx(8,11): error TS2339: Property 'addAlert' does not exist on type 'Ctx'.
+route-frontend/src/pages/operator/index.tsx(8,11): error TS2339: Property 'addAlert' does not exist on type 'Ctx'.
+route-frontend/src/pages/owner/index.tsx(8,11): error TS2339: Property 'addAlert' does not exist on type 'Ctx'.

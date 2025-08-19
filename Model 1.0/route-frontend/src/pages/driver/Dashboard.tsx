@@ -1,10 +1,11 @@
-function DriverDashboard() {
+import React from 'react';
+
+const DriverDashboard: React.FC = () => {
   return (
     <div>
       <h1>Driver Dashboard</h1>
-      <p>This is the dashboard for drivers.</p>
     </div>
   );
-}
+};
 
 export default DriverDashboard;

@@ -1,90 +1,75 @@
-import { Routes, Route, Link } from 'react-router-dom';
-import { HeroSection } from '@/components/ui/hero-section-dark';
-import OwnerDashboard from './pages/owner/Dashboard'; // Relative path
-import CustomerDashboard from './pages/customer/Dashboard'; // Relative path
-import DriverDashboard from './pages/driver/Dashboard'; // Relative path
-import OperatorHub from './pages/operator/Hub'; // Relative path
-import AdminDashboard from './pages/admin/Admin'; // Relative path
-import { useAuth } from './context/AuthContext'; // Relative path
-import AlertDisplay from './components/AlertDisplay'; // Relative path
-import { Button } from '@/components/ui/button';
+import React, { Suspense, lazy, useEffect } from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom';
+import HeroSectionDemo from '@/pages/HeroSectionDemo';
+import AlertDisplay from '@/components/ui/AlertDisplay';
+import { Header, Footer } from '@/components/ui';
+import { useAuth } from '@/context/AuthContext';
 import './index.css';
 
-function App() {
-  const { userRole, setUserRole } = useAuth();
+// Lazy load dashboard components
+const OwnerDashboard = lazy(() => import('@/pages/owner'));
+const CustomerDashboard = lazy(() => import('@/pages/customer'));
+const DriverDashboard = lazy(() => import('@/pages/driver'));
+const OperatorHub = lazy(() => import('@/pages/operator'));
+const AdminDashboard = lazy(() => import('@/pages/admin'));
+const ManagerDashboard = lazy(() => import('@/pages/manager'));
 
-  const handleRoleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setUserRole(event.target.value as any);
-  };
+function App() {
+  const { userRole } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (userRole) {
+      switch (userRole) {
+        case 'admin':
+          navigate('/admin');
+          break;
+        case 'owner':
+          navigate('/owner');
+          break;
+        case 'customer':
+          navigate('/customer');
+          break;
+        case 'driver':
+          navigate('/driver');
+          break;
+        case 'operator':
+          navigate('/operator');
+          break;
+        case 'manager':
+          navigate('/manager');
+          break;
+        default:
+          navigate('/');
+      }
+    } else {
+      navigate('/');
+    }
+  }, [userRole, navigate]);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
       <AlertDisplay />
-      <nav className="p-4 bg-gray-100 shadow-md flex justify-between items-center">
-        <ul className="flex space-x-4">
-          <li>
-            <Button asChild variant="link">
-              <Link to="/">Home</Link>
-            </Button>
-          </li>
-          <li>
-            <Button asChild variant="link">
-              <Link to="/owner">Owner Dashboard</Link>
-            </Button>
-          </li>
-          <li>
-            <Button asChild variant="link">
-              <Link to="/customer">Customer Dashboard</Link>
-            </Button>
-          </li>
-          <li>
-            <Button asChild variant="link">
-              <Link to="/driver">Driver Dashboard</Link>
-            </Button>
-          </li>
-          <li>
-            <Button asChild variant="link">
-              <Link to="/operator">Operator Hub</Link>
-            </Button>
-          </li>
-          <li>
-            <Button asChild variant="link">
-              <Link to="/admin">Admin Dashboard</Link>
-            </Button>
-          </li>
-        </ul>
-        <div className="flex items-center space-x-2">
-          <label htmlFor="role-select" className="text-gray-700">Current Role:</label>
-          <select
-            id="role-select"
-            value={userRole}
-            onChange={handleRoleChange}
-            className="p-2 border rounded-md"
-          >
-            <option value="owner">Owner</option>
-            <option value="customer">Customer</option>
-            <option value="driver">Driver</option>
-            <option value="operator">Operator</option>
-            <option value="admin">Admin</option>
-          </select>
-        </div>
-      </nav>
+      <div className="min-h-screen flex flex-col">
+        <Header />
 
-      <main className="flex-grow container mx-auto p-4">
-        <Routes>
-          <Route path="/" element={<HeroSection />} />
-          <Route path="/owner" element={<OwnerDashboard />} />
-          <Route path="/customer" element={<CustomerDashboard />} />
-          <Route path="/driver" element={<DriverDashboard />} />
-          <Route path="/operator" element={<OperatorHub />} />
-          <Route path="/admin" element={<AdminDashboard />} />
-        </Routes>
-      </main>
+        <main className="flex-grow">
+          <Suspense fallback={<div>Loading dashboard...</div>}>
+            <Routes>
+              <Route path="/" element={<HeroSectionDemo />} />
+              <Route path="/admin" element={<AdminDashboard />} />
+              <Route path="/owner" element={<OwnerDashboard />} />
+              <Route path="/customer" element={<CustomerDashboard />} />
+              <Route path="/driver" element={<DriverDashboard />} />
+              <Route path="/operator" element={<OperatorHub />} />
+              <Route path="/manager" element={<ManagerDashboard />} />
+            </Routes>
+          </Suspense>
+        </main>
 
-      <footer className="p-4 bg-gray-100 shadow-md text-center text-gray-600">
-        <p>&copy; 2025 RouteOptimizer. All rights reserved.</p>
-      </footer>
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 }
 

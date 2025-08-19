@@ -1,10 +1,11 @@
-function OwnerDashboard() {
+import React from 'react';
+
+const OwnerDashboard: React.FC = () => {
   return (
     <div>
       <h1>Owner Dashboard</h1>
-      <p>This is the dashboard for vehicle owners.</p>
     </div>
   );
-}
+};
 
 export default OwnerDashboard;

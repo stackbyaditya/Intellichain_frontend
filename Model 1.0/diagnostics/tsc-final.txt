@@ -1,0 +1,588 @@
+route-frontend/src/App.tsx(1,31): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+route-frontend/src/App.tsx(10,8): error TS2307: Cannot find module './index.css' or its corresponding type declarations.
+route-frontend/src/App.tsx(14,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/App.tsx(16,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/App.tsx(19,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/App.tsx(28,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/App.tsx(31,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/accordion.tsx(1,24): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/accordion.tsx(2,37): error TS2307: Cannot find module '@radix-ui/react-accordion' or its corresponding type declarations.
+route-frontend/src/components/ui/accordion.tsx(3,33): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+route-frontend/src/components/ui/accordion.tsx(10,10): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/accordion.tsx(59,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/accordion.tsx(59,61): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(5,15): error TS6133: 't' is declared but its value is never read.
+route-frontend/src/components/ui/AlertDisplay.tsx(6,8): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(6,8): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/AlertDisplay.tsx(6,67): error TS7006: Parameter 'a' implicitly has an 'any' type.
+route-frontend/src/components/ui/AlertDisplay.tsx(7,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(8,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(9,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(10,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(10,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(11,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(11,37): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(12,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(13,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(13,80): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(14,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(15,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AlertDisplay.tsx(17,1): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/AuthGuard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/AuthGuard.tsx(3,26): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+route-frontend/src/components/ui/AuthGuard.tsx(10,48): error TS7031: Binding element 'children' implicitly has an 'any' type.
+route-frontend/src/components/ui/AuthGuard.tsx(10,58): error TS7031: Binding element 'allowedRoles' implicitly has an 'any' type.
+route-frontend/src/components/ui/AuthGuard.tsx(14,12): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/button-variants.ts(1,21): error TS2307: Cannot find module 'class-variance-authority' or its corresponding type declarations.
+route-frontend/src/components/ui/button.tsx(1,24): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/button.tsx(2,22): error TS2307: Cannot find module '@radix-ui/react-slot' or its corresponding type declarations.
+route-frontend/src/components/ui/button.tsx(3,35): error TS2307: Cannot find module 'class-variance-authority' or its corresponding type declarations.
+route-frontend/src/components/ui/button.tsx(21,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/card.tsx(1,24): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/card.tsx(7,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/card.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(20,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(33,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(43,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(53,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(66,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/card.tsx(76,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Footer.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/Footer.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Footer.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/Footer.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Footer.tsx(6,78): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Footer.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/Header.tsx(2,22): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+route-frontend/src/components/ui/Header.tsx(17,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(17,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/Header.tsx(18,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(20,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(25,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(26,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Header.tsx(27,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/Heatmap.tsx(9,44): error TS7031: Binding element 'title' implicitly has an 'any' type.
+route-frontend/src/components/ui/Heatmap.tsx(11,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(11,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/Heatmap.tsx(12,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(12,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(13,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(14,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(14,57): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(15,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Heatmap.tsx(16,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/hero-section-dark.tsx(2,30): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,6): error TS7031: Binding element 'title' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,13): error TS7031: Binding element 'subtitle' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,23): error TS7031: Binding element 'description' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,36): error TS7031: Binding element 'ctaText' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,45): error TS7031: Binding element 'ctaHref' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,54): error TS7031: Binding element 'bottomImage' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,67): error TS7031: Binding element 'gridOptions' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,80): error TS7031: Binding element 'className' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(19,103): error TS7006: Parameter 'ref' implicitly has an 'any' type.
+route-frontend/src/components/ui/hero-section-dark.tsx(21,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(21,7): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/hero-section-dark.tsx(29,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(30,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(31,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(33,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(34,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(36,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(37,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(39,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(40,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(41,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(46,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(47,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(48,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(49,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(51,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(52,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(53,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(60,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(67,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(68,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(70,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(70,68): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/hero-section-dark.tsx(71,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Input.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/Input.tsx(3,71): error TS7006: Parameter 'props' implicitly has an 'any' type.
+route-frontend/src/components/ui/Input.tsx(4,10): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/Input.tsx(4,10): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MapContainer.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/MapContainer.tsx(7,54): error TS7031: Binding element 'children' implicitly has an 'any' type.
+route-frontend/src/components/ui/MapContainer.tsx(9,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MapContainer.tsx(9,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/MapContainer.tsx(10,20): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MapContainer.tsx(10,64): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MapContainer.tsx(11,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/MetricCard.tsx(9,50): error TS7031: Binding element 'title' implicitly has an 'any' type.
+route-frontend/src/components/ui/MetricCard.tsx(9,57): error TS7031: Binding element 'value' implicitly has an 'any' type.
+route-frontend/src/components/ui/MetricCard.tsx(9,64): error TS7031: Binding element 'description' implicitly has an 'any' type.
+route-frontend/src/components/ui/MetricCard.tsx(11,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(11,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/MetricCard.tsx(12,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(12,66): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(13,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(13,67): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(14,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(14,78): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/MetricCard.tsx(15,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/Modal.tsx(9,40): error TS7031: Binding element 'isOpen' implicitly has an 'any' type.
+route-frontend/src/components/ui/Modal.tsx(9,48): error TS7031: Binding element 'onClose' implicitly has an 'any' type.
+route-frontend/src/components/ui/Modal.tsx(9,57): error TS7031: Binding element 'children' implicitly has an 'any' type.
+route-frontend/src/components/ui/Modal.tsx(13,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(13,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/Modal.tsx(14,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(15,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(17,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(19,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/Modal.tsx(20,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/PieChart.tsx(9,46): error TS7031: Binding element 'title' implicitly has an 'any' type.
+route-frontend/src/components/ui/PieChart.tsx(11,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(11,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/PieChart.tsx(12,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(12,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(13,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(14,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(14,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(15,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/PieChart.tsx(16,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/RoleSwitcher.tsx(2,24): error TS2305: Module '"@/context"' has no exported member 'UserRole'.
+route-frontend/src/components/ui/RoleSwitcher.tsx(17,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(17,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/RoleSwitcher.tsx(22,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(22,35): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(23,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(23,34): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(24,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(24,34): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(25,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(25,40): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(26,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(26,36): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(27,40): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/RoleSwitcher.tsx(28,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/components/ui/TimeSeriesChart.tsx(9,60): error TS7031: Binding element 'title' implicitly has an 'any' type.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(11,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(11,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/components/ui/TimeSeriesChart.tsx(12,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(12,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(13,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(14,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(14,67): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(15,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/components/ui/TimeSeriesChart.tsx(16,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/context/AlertContext.tsx(1,64): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/context/AlertContext.tsx(8,143): error TS7006: Parameter 'x' implicitly has an 'any' type.
+route-frontend/src/context/AlertContext.tsx(12,37): error TS7006: Parameter 'x' implicitly has an 'any' type.
+route-frontend/src/context/AlertContext.tsx(12,49): error TS7006: Parameter 'a' implicitly has an 'any' type.
+route-frontend/src/context/AlertContext.tsx(13,8): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/context/AuthContext.tsx(1,64): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/context/AuthContext.tsx(9,8): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/lib/api/googlemaps.ts(5,41): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+route-frontend/src/lib/api/mapbox.ts(4,41): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+route-frontend/src/lib/api/mapmyindia.ts(2,40): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+route-frontend/src/lib/api/openweathermap.ts(2,44): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+route-frontend/src/lib/utils.ts(1,39): error TS2307: Cannot find module 'clsx' or its corresponding type declarations.
+route-frontend/src/lib/utils.ts(2,25): error TS2307: Cannot find module 'tailwind-merge' or its corresponding type declarations.
+route-frontend/src/main.tsx(1,28): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/main.tsx(2,28): error TS7016: Could not find a declaration file for module 'react-dom/client'. 'C:/Users/Aditya Kumar/node_modules/react-dom/client.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react-dom` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-dom/client';`
+route-frontend/src/main.tsx(3,31): error TS2307: Cannot find module 'react-router-dom' or its corresponding type declarations.
+route-frontend/src/main.tsx(7,8): error TS2307: Cannot find module './index.css' or its corresponding type declarations.
+route-frontend/src/main.tsx(24,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/mocks/browser.ts(1,29): error TS2307: Cannot find module 'msw/browser' or its corresponding type declarations.
+route-frontend/src/mocks/handlers.ts(1,36): error TS2307: Cannot find module 'msw' or its corresponding type declarations.
+route-frontend/src/mocks/handlers.ts(14,83): error TS6133: 'request' is declared but its value is never read.
+route-frontend/src/mocks/handlers.ts(14,83): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(14,92): error TS7031: Binding element 'params' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(32,54): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(47,66): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(64,42): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(78,78): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/handlers.ts(94,76): error TS7031: Binding element 'request' implicitly has an 'any' type.
+route-frontend/src/mocks/server.ts(1,29): error TS2307: Cannot find module 'msw/node' or its corresponding type declarations.
+route-frontend/src/pages/admin/Admin.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/admin/Admin.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/Admin.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/admin/Admin.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/Admin.tsx(6,26): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/Admin.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(1,37): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/admin/index.tsx(36,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(36,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/admin/index.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(37,62): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(41,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(41,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(49,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(53,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(54,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(55,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(56,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(56,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(57,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(57,66): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/admin/index.tsx(58,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(58,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(59,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(59,56): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(60,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(60,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(62,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(63,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(64,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(64,101): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(65,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(65,64): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/admin/index.tsx(66,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(66,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(67,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(67,42): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(68,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(68,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(69,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(69,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(70,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(71,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(72,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(73,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(74,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(74,109): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(75,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(75,72): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/admin/index.tsx(76,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(76,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(77,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(77,46): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(78,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(78,48): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(79,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(79,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(80,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(81,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(82,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(83,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(83,138): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(84,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(87,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(91,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(119,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(119,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/admin/index.tsx(123,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/Dashboard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/customer/Dashboard.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/Dashboard.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/customer/Dashboard.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/Dashboard.tsx(6,29): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/Dashboard.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(1,37): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/customer/index.tsx(36,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(36,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/customer/index.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(37,65): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(41,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(41,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(49,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(53,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(54,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(55,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(56,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(56,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(57,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(57,66): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/customer/index.tsx(58,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(58,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(59,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(59,56): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(60,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(60,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(62,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(63,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(64,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(64,105): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(65,79): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/customer/index.tsx(66,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(67,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(68,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(68,102): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(69,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(69,72): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/customer/index.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(70,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(71,46): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(72,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(72,52): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(73,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(73,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(74,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(75,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(76,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(77,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(77,138): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(78,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(81,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(85,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(113,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(113,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/customer/index.tsx(117,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/Dashboard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/driver/Dashboard.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/Dashboard.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/driver/Dashboard.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/Dashboard.tsx(6,27): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/Dashboard.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(1,37): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/driver/index.tsx(36,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(36,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/driver/index.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(37,63): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(41,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(41,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(49,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(53,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(54,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(55,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(56,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(56,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(57,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(57,66): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/driver/index.tsx(58,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(58,42): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(59,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(59,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(60,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(60,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(62,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(63,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(64,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(64,99): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(65,73): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/driver/index.tsx(66,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(67,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(68,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(68,111): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(69,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(69,74): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/driver/index.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(70,52): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(71,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(72,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(72,40): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(73,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(74,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(75,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(76,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(76,138): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(77,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(80,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(84,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(112,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(112,81): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/driver/index.tsx(116,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/HeroSectionDemo.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/HeroSectionDemo.tsx(6,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/operator/Hub.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/operator/Hub.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/Hub.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/operator/Hub.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/Hub.tsx(6,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/Hub.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(1,37): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/operator/index.tsx(36,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(36,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/operator/index.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(37,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(41,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(41,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(49,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(53,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(54,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(55,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(56,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(56,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(57,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(57,66): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/operator/index.tsx(58,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(58,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(59,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(59,56): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(60,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(60,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(62,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(63,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(64,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(64,107): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(65,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(65,70): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/operator/index.tsx(66,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(66,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(67,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(67,46): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(68,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(68,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(69,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(70,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(71,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(72,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(72,105): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(73,79): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/operator/index.tsx(74,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(75,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(76,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(76,138): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(77,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(80,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(84,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(112,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(112,88): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/operator/index.tsx(116,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/Dashboard.tsx(1,19): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/owner/Dashboard.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/Dashboard.tsx(5,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/owner/Dashboard.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/Dashboard.tsx(6,26): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/Dashboard.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(1,37): error TS7016: Could not find a declaration file for module 'react'. 'C:/Users/Aditya Kumar/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+route-frontend/src/pages/owner/index.tsx(36,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(36,5): error TS7016: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/Aditya Kumar/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+route-frontend/src/pages/owner/index.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(37,62): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(41,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(41,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(49,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(53,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(53,59): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(54,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(55,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(56,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(56,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(57,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(57,66): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/owner/index.tsx(58,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(58,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(59,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(59,56): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(60,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(60,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(61,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(62,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(63,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(64,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(64,103): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(65,77): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/owner/index.tsx(66,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(67,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(68,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(68,99): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(69,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(69,63): error TS7006: Parameter 'e' implicitly has an 'any' type.
+route-frontend/src/pages/owner/index.tsx(70,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(70,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(71,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(71,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(72,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(72,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(73,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(74,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(75,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(76,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(76,138): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(77,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(80,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(84,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(112,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(112,64): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+route-frontend/src/pages/owner/index.tsx(116,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
